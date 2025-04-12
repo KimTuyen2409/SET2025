@@ -1,0 +1,190 @@
+body{
+    width: 1230px;
+    height: 580px;
+    border: 2px solid black;
+}
+.pointToWin{
+    width: 1170px;
+    height: 25px;
+    margin: 5px;
+    margin-left: 20px;
+    border: 2px solid  black;
+}
+.mainChessGame{
+    display: flex;
+    width: 900px;
+    height: 485px;
+    margin: 5px;
+    margin-left: 200px;
+    border: 1px solid  black;
+}
+.setting_control{
+    display: flex;
+    width: 1170px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 20px;
+    border: 2px solid  black;
+}
+.chessBox {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);  
+    width: 480px;
+    height: 485px;
+    margin: 0px;
+    margin-left: 0px;
+    border: 1px solid black;
+}
+.mainPlayer{
+    display: block;
+    width: 400px;
+    height: 450px;
+    margin: 10px;
+    margin-left: 10px;
+    border: 2px solid  black;
+}
+.play{
+    width: 100px;
+    height: 15px;
+    margin: 5px;
+    margin-left: 200px;
+    border: 2px solid  black;
+}
+.pause{
+    width: 100px;
+    height: 15px;
+    margin: 5px;
+    margin-left: 200px;
+    border: 2px solid  black;
+}
+.undo{
+    width: 100px;
+    height: 15px;
+    margin: 10px;
+    margin-left: 200px;
+    border: 2px solid  black;
+}
+.character{
+    width: 270px;
+    height: 150px;
+    margin: 10px;
+    margin-left: 15px;
+    border: 2px solid  black;
+}
+.time{
+    width: 270px;
+    height: 50px;
+    margin: 10px;
+    margin-left: 15px;
+    border: 2px solid  black;
+}
+.square_white{
+    background-color: white;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    margin: 0.5px;
+    margin-left: 0px;
+}
+.square_pink{
+    background-color: pink;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    margin: 0.5px;
+    margin-left: 0px;
+}
+.king {
+    position: relative;
+    width: 20px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 10px auto;
+  }
+  
+  .king-crown {
+    position: absolute;
+    top: -8px;
+    left: 10px;
+    width: 20px;
+    height: 10px;
+    background-color: gold;
+    border-radius: 5px;
+  }
+  
+  .king-body {
+    width: 30%;
+    height: 70%;
+    background-color: black;
+    border-radius: 50%;
+  }
+  .chess-piece {
+    width: 20px;
+    height: 50px;
+    margin: 50px auto;
+    position: relative;
+    background-color: #333; /* Màu đen cho quân cờ */
+    border-radius: 10px 10px 20px 20px; /* Bo tròn các góc dưới */
+}
+
+/* Phần thân quân cờ */
+.chess-piece .body {
+    width: 60px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    background-color: #333;
+    border-radius: 10px;
+}
+
+/* Phần chân quân cờ */
+.chess-piece .base {
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    background-color: #333;
+    border-radius: 10px;
+}
+
+/* Phần tháp trên quân cờ */
+.chess-piece .crown {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    background-color: #333;
+    border-radius: 5px;
+}
+
+/* Thập tự trên quân cờ */
+.chess-piece .cross-vertical {
+    width: 8px;
+    height: 40px;
+    background-color: #333;
+    position: absolute;
+    left: 50%;
+    top: -15px;
+    transform: translateX(-50%);
+}
+
+.chess-piece .cross-horizontal {
+    width: 30px;
+    height: 8px;
+    background-color: #333;
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
