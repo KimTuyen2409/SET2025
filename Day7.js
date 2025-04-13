@@ -1,12 +1,12 @@
 // sự khác nhau giữa == và === là: == là so sánh giá trị, === là so sánh giá trị và kiểu dữ liệu. 
 // Sự khác nhau giữa let, var và const là  const là giá trị không thay đổi, let là giá trị có thể thay đổi, Var giống let nhưng dễ gây lỗi nên hạn chế dùng.
-let weidght = 50;
+let weight = 50;
 let tall = 1.65;
 
-function calculateBMI(weidght, tall) {
-  return weidght / tall ** 2;
+function calculateBMI(weight, tall) {
+  return weight / tall ** 2;
 }
-console.log("Calculating BMI: " + calculateBMI(weidght, tall));
+console.log("Calculating BMI: " + calculateBMI(weight, tall));
 
 function calculateSimpleInterest(principal, rate, time) {
   return principal * (1 + rate * time);
@@ -27,7 +27,7 @@ function calculateTime(seconds) {
       minutes = minutes - hours * 60;
     }
   }
-  return [hours, minutes, seconds];
+  return hours +":" + minutes +":" + seconds;
 }
 console.log("Calculatimes: " + calculateTime(122));
 
