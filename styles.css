@@ -3,3 +3,23 @@ div{
     margin: 50px;
     border: 1px solid black;
 }
+
+.top{
+    width: 90%;
+}
+
+.top__card{
+    width: 20%;
+}
+
+.column{
+    width: 35%;
+}
+
+.column__card{
+    width: 65%;
+}
+
+.bottom{
+    width: 90%;
+}
